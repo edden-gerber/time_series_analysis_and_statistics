@@ -74,7 +74,7 @@ Returns a vector of the same size and amplitude spectrum but with shuffled phase
 
 ### Filtering functions
 
-[filter functions](img/filters.png)
+![filter functions](img/filters.png)
 
 Easy filter functions wrapping around matlab's filter design. Support common types (butterworth and cheyshev), causal and noncausal filtering and defining filter degree.
 Functions included:
