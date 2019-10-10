@@ -38,7 +38,7 @@ Scatter plot with categories on the x-axis, with width determined by data point 
 
 
 #### Inspect time series events
-![inspect time series events](img/inspect.png)
+![inspect time series events](img/inspect_events.png)
 
 inspect_events is a graphical tool for inspecting the temporal structure of event markers. It can be used both to manually inspect and modify event timing and values, as well as to automatically remove illegal event seuqences. Filtering for sequences is done using regular expressions and is therefore highly flexible. This was written originally to verify sequences of event markers for EEG experiments, but can be useful for any kind of temporal event data.
 The graphical interface uses the findjobj java object finder by Yair Altman, compatibility may depend on this function.
@@ -74,4 +74,23 @@ Segment a data vector and compute the average across segments. Takes a vector, a
 #### PhaseShuffle
 Returns a vector of the same size and amplitude spectrum but with shuffled phase information. This is useful for generating different vectors with the same frequency spectrum.
 
-#### 
+### Filtering functions
+
+[filter functions](img/filter.png)
+
+Easy filter functions wrapping around matlab's filter design. Support common types (butterworth and cheyshev), causal and noncausal filtering and defining filter degree.
+Functions included:
+High Pass Filter
+Low Pass Filter
+Notch Filter
+
+### Data generation functions
+
+#### randwalk
+Generates a random walk time series (each point is equal to the previous plus a random value). With additional options like bias toward the origin. Originally written to generate simple artificial biological signals exhibiting 1/f spectrum.
+
+#### vecdraw
+[vecdraw](img/vecdraw.png)
+
+Create a vector by drawing it directly on the figure with your mouse. Just define the vector length and then use the mouse to "plot" the values. The vector is returned as the output variable when the figure is closed.
+
