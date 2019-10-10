@@ -20,7 +20,7 @@ For anyone looking at time x trial style data, this can (and should) replace you
 #### plotFFT
 ![plotFFT](img/plotfft.png)
 
-plot a single-sided spectrum with true frequency x-axis. This is a simple function that plots the result of the FFT transform, but replacing the arbitrary x-axis with a true freqency axis (using the input sampling frequency). It plots just one side of the symmetrical FFT vector. You can also use the function to extract the frequency axis vector without creating the plot.
+Plot a single-sided spectrum with true frequency x-axis. This is a simple function that plots the result of the FFT transform, but replacing the arbitrary x-axis with a true freqency axis (using the input sampling frequency). It plots just one side of the symmetrical FFT vector. You can also use the function to extract the frequency axis vector without creating the plot.
 
 #### scalpView
 ![scalpView](img/scalpview.png)
