@@ -20,19 +20,19 @@ For anyone looking at time x trial style data, this can (and should) replace you
 
 
 #### plotFFT
-![plotFFT](img/fft.png)
+![plotFFT](img/plotfft.png)
 
 plot a single-sided spectrum with true frequency x-axis. This is a simple function that plots the result of the FFT transform, but replacing the arbitrary x-axis with a true freqency axis (using the input sampling frequency). It plots just one side of the symmetrical FFT vector. You can also use the function to extract the frequency axis vector without creating the plot.
 
 
 #### scalpView
-![scalpView](img\scalpview.png)
+![scalpView](img/scalpview.png)
 
 Plots multiple axes on a figure each of which corresponds to the location of an electrode on the scalp.
 
 
 #### simple violin scatter plot
-![violing scatter plot](img\violin.png)
+![violing scatter plot](img/violin.png)
 
 Scatter plot with categories on the x-axis, with width determined by data point density (like a violin plot but with the width of the violin not explicitly drawn but rather setting the x-axis dispersion of the data points). This is convenient for showing the distribution of categorical data directly using the data points themselves rather than with violin plots or heat maps.
 
