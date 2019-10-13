@@ -64,7 +64,7 @@ Lachaux, J. P., Rodriguez, E., Martinerie, J., & Varela, F. J. (1999). Measuring
 A 2-sample t-test that computes only the t-value, skipping the very time-consuming p-value computation. This is good e.g. for permutation tests that need to compute t-values a large number of times as fast as possible. This test assumes equal variances, and allows for unequal sample sizes.
 
 
-### Data manipulatiopn functions
+### Data manipulation functions
 
 #### SegAndAvg
 Segment a data vector and compute the average across segments. Takes a vector, a list of latencies and a window definition, and returns both the segmented data around those latencies and the average of the segments (This is an extermenly commonly used functonality when doing EEG analysis).
